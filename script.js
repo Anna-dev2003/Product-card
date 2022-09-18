@@ -1,4 +1,6 @@
-
+$('.bth-heart').on('click', function(){
+    $(this).children('path').toggleClass('toggleRed');
+})
 $('.description-text').on('click', function(){
     $(this).children('.description-text_continue').slideToggle(300);
     $(this).children('.description-text_main').children('span').toggleClass('hide')

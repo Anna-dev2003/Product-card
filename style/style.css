@@ -129,13 +129,10 @@ body{
     background-color: darkgreen;;
 }
 
-.bth-heart{
-    max-width: 25px;
-    opacity: 0.7;
-}
-
-.bth-heart:active{
-    opacity: 1;
+.toggleRed{
+    fill: #EB5757;
+    stroke: #EB5757;
+    transition: 300ms all;
 }
 
 .card-settings{
